@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F0F0F0;
+  height: 3500px;
+}
+
+
+
+
+header{ 
+  background: #1e130c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(154, 133, 121, 0.281), hsla(21, 41%, 8%, 0.295));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(21, 11%, 42%, 0.295), #492f2159),url(../imagenes/portada.jpg)/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover ;
+  height: 800px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.contenedor-menu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 20px;
+}
+  
+
+  .logo{
+      flex: 1 1 auto;
+  }
+
+  .nav{
+    flex: 1 1 auto;
+    text-align: right;
+    margin-right: 10px;
+}
+
+  .nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .nav a:hover{
+    color: red;
+    background-color: hsla(0, 0%, 100%, 0.555);
+    padding: 10px 5px;
+    border-radius: 20px;
+  }
+  
+
+
+ .contenedor-textoprincipal{ 
+     display: flex;
+     justify-content: center;
+     padding-top: 300px;
+  }
+
+  
+
+     .parrafo-principal {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    color: white;
+
+    }
+
+    /*------------------------MAIN-------------------*/
+
+    .main{
+     display: flex;
+      flex-flow: column nowrap; 
+    
+    }
+
+    
+    /*------------------------CATEGORIA-------------------*/
+
+    .contenedor-categorias{
+     display: flex;
+     flex-flow: row nowrap;
+    justify-content: space-between;
+    
+     margin-top: -80px;
+   
+    }
+  
+    .contenedor-chicocategoria{
+    flex:  1 1 auto;
+    text-align: center; 
+    }
+
+       .ensalada{
+    margin-top: -50px;
+       }
+
+      
+  
+     /*----------- favoritos-------*/
+   
+
+      .contenedor-favoritos{
+      
+        height: 700px;
+        align-items: center;
+        margin-top: 120px;
+        display: flex;
+        flex-flow: column nowrap;
+       
+      }  
+         
+         .contenedor-imgfav{
+           height: 500px;
+           margin-left: -380px;
+           padding: 10px;  
+      
+         }
+
+
+         .contenedor-textofav{
+          background-color: white;
+          height: 250px;
+          width: 39%;
+          border-radius: 30px;
+          position: absolute;
+          margin-left:500px;
+          margin-top: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+        }
+
+           .texto-contenedor{
+           width: 80%;      
+           }
+
+           h2{
+            font-family: 'Playfair Display', serif;
+            font-size: 31px;
+            text-align: left;
+           }
+     
+           .texto-1{
+            padding-top: 15px;
+            padding-bottom: 25px;
+            font-size: 16px;
+            line-height: 25px;
+            
+    
+           }
+
+           .btn-fav {
+             background-color: red;
+             padding: 10px 30px;
+             border-radius: 20px;
+             padding-top: 10px;
+             margin-left: 285px;
+             text-decoration: none;
+             color: white;
+           }
+
+           .btn-fav:hover{
+             background: gainsboro;
+           }
+
+           .btn-fav:hover{
+            color: black;
+          }
+           
+
+
+        .contenedor-fondo{
+          background-color: gainsboro;
+          height: 600px;  
+          width: 900px;
+          margin-left: -500px;
+          
+        }
+
+
+        /*-------------------------- comunidad-------------*/
+
+        .contenedor-comunidad{
+          background: #1e130c;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, rgba(154, 133, 121, 0.281), hsla(21, 41%, 8%, 0.295));  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, hsla(21, 11%, 42%, 0.295), #492f2159),url(../imagenes/comunidad.jpg)/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          ;
+          background-size: cover;
+          background-position: center;
+          height:500px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          margin-top: 50px;
+          justify-content: center;
+          flex-flow: column nowrap;
+        }
+      
+       
+        .parrafo-comunidad{
+          font-family: 'Playfair Display', serif;
+          font-size: 48px;
+          color: white;
+        }
+
+        .btn-comunidad {
+          background-color: red;
+          padding: 10px 30px;
+          border-radius: 20px;
+          margin-top: 20px;
+          text-decoration: none;
+          color: white;
+        }
+
+        .btn-comunidad:hover{
+          background: white;
+        }
+
+        .btn-comunidad:hover{
+         color: black;
+       }
+
+       
+
+        .contenedor-informacion{
+          height: 400px;
+          display: flex;
+          align-items: center;
+        }
+
+
+           .contenedor-inf{
+             
+             height: 300px; 
+             display: flex;
+             flex: 1 1 auto;
+             align-items: center;
+
+           }
+
+
+           .tendencias{
+            background: #1e130c;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(154, 133, 121, 0.281), hsla(21, 41%, 8%, 0.295));  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, hsla(20, 4%, 31%, 0.295), hsla(12, 5%, 22%, 0.637)),url(../imagenes/3.jpg)/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            ;
+             height: 300px;      
+             display: flex;
+             flex: 1 1 auto;
+             background-size: cover;
+             background-position: center;
+             align-items: center;
+             color: white;
+             
+           }
+
+              .inf-tendencia{
+                height: 50px;
+                margin: 20px;
+              }
+
+              .p-inf{
+               
+                padding-top: 10px;
+                padding-bottom: 30px;
+              }
+
+              .h3-inf{
+                font-family: 'Playfair Display', serif;
+                font-size: 25px; 
+              }
+
+           .blog{
+            background: #1a1919;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(59, 56, 54, 0.438), hsla(21, 41%, 8%, 0.295));  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, hsla(20, 6%, 20%, 0.295), hsla(20, 5%, 12%, 0.616)),url(../imagenes/4.jpg)/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            ;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+            margin: 10px;
+            color: white;
+            flex: 1 1 auto;
+           
+          }
+
+          .prensa{
+            background: #1e130c;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(154, 133, 121, 0.281), hsla(21, 41%, 8%, 0.295));  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, hsla(25, 9%, 26%, 0.295), #492f2159),url(../imagenes/2.jpg)/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            ;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+          
+            color: white;
+            flex: 1 1 auto;
+           
+          }
+              
+             .btn-inf{
+              background-color: white;
+              padding: 10px 30px;
+              border-radius: 20px;
+              text-decoration: none;
+              color: black;
+              margin-left: 240px;
+             }
+
+             .btn-inf:hover{
+               background-color: red;
+               color: white;
+             }
+
+
+             /*------ section-----*/
+
+
+             .contenedor-section{
+              height: 800px;
+              align-items: center;
+              display: flex;
+              flex-flow: column nowrap;
+             
+            }  
+               
+               .contenedor-imgf{
+                 height: 500px;
+                 margin-left: -380px;
+                 padding: 10px;  
+                 position: absolute;
+               }
+      
+      
+               .contenedor-textosection{  
+                height: 250px;
+                width: 39%;
+                border-radius: 30px; 
+                margin-left:500px;
+                margin-top: 320px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                text-align: center;      
+              }
+      
+                 .texto-section{
+                 width: 80%;   
+                 padding-left: 30px;  
+                 }
+      
+                 .h2-section{
+                  font-family: 'Playfair Display', serif;
+                  font-size: 24px;
+                  padding-bottom: 40px;
+                  padding-top: 40px;
+                  text-align: center;
+                 }
+           
+                 .btn-2{
+                   padding-bottom: 40px;
+                   text-align: center;
+                 }
+                 
+      
+                 .btn-section {
+                   background-color: red;
+                   padding: 10px 150px;
+                   border-radius: 20px;
+                   text-decoration: none;
+                   color: white;
+                   text-align: center;
+                 }
+
+                 .btn-section:hover{
+                    background-color: white;
+                    color: black;
+                    border: solid red 1px;
+                 }
+      
+                 .footer{
+                   background-color: red;
+                   height: 150px;
+                   display: flex;
+                   align-items: center;
+                 }
+
+                    .contenedor-footer{
+                      height: 100px;
+                      padding: 10px;
+                      flex: 1 1 auto;
+                      display: flex;
+                      flex-flow: column nowrap;
+                      align-items: center;
+                    }
+
+
+                    .footer-logo{
+                       margin-bottom: 20px;
+                       
+                    }
+
+                    .logo-footer{
+                      margin-left: 40px;
+                    }
+
+                    
+                    .redes{
+                      display: flex;
+                      flex-flow: row nowrap;
+                      
+                    }
+
+                    .r-1{
+                       flex:1 1 auto;
+                       margin-left: 50px;
+                    }
+
+           
+    
+
+      
+
+     
+       
+   
+
+  
